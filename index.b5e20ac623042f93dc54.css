@@ -1,0 +1,352 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+a{display:block;text-decoration:none}.header{display:flex;justify-content:center;position:relative}.header__burger{display:none;width:25px;height:25px;background-image:url(assets/bcd1331a24cb8ba486aa.svg);background-position:center;background-size:contain;background-repeat:no-repeat}.header__burger:hover{cursor:pointer}.header__burger_close{background-image:url(assets/cdd00983a02b72faca80.svg)}.header__wrapper{padding:8px 0;color:#fff;display:flex;align-items:center;justify-content:space-between;font-size:25px;flex-direction:row;gap:40px;border-bottom:1px solid #161616}.header__wrapper_border{border-bottom:1px solid #fff}.header__logo{display:flex}.header__logo:hover{cursor:pointer}.header__logo-img{width:30px;transform:scale(-1, 1)}.header .menu{list-style:none;display:flex;gap:70px;margin:0;align-items:center}.header .menu__lang-btn{border-radius:20px;text-transform:uppercase;padding:7px;font-size:14px;color:#fff;background-color:#161616;border:1px solid rgba(255,255,255,.47)}.header .menu__lang-btn_active{background-color:#fff;color:#000;border:1px solid #000}.header .menu__lang-btn:hover{cursor:pointer}.header .menu__link{color:#fff;border-bottom:1px solid rgba(0,0,0,0);text-transform:uppercase;font-weight:400;border-bottom:1px solid rgba(0,0,0,0);transition:.5s}.header .menu__link:hover,.header .menu__link_active{border-bottom:1px solid #fff}.header .menu__item{font-size:16px}.header__popup{position:absolute;width:95%;background-color:#fff;top:46px;left:50%;z-index:100;height:150px;display:flex;align-items:center;transform:translateX(-50%);animation:popup .5s forwards;border-radius:20px;overflow:hidden;transition:1s}@keyframes popup{0%{transform:translate(-50%, -100%)}100%{transform:translate(-50%, 0)}}.header__popup_hidden{animation:popup-hide .5s forwards}@keyframes popup-hide{0%{transform:translate(-50%, 0)}100%{transform:translate(-50%, -150%)}}.header__popup .menu{flex-direction:column;color:#000;padding:0;gap:0;width:100%;align-items:center}.header__popup .menu__link{color:#000;padding:15px 0 15px 10px;width:100%}.header__popup .menu__link:hover{background-color:#e8e8e8}.header__popup .menu__item{width:100%;text-align:center}.header__popup .menu__item_lang{width:fit-content;position:absolute;top:5px;right:14px}.header__popup .menu__item:last-child .menu__link{border-bottom-left-radius:20px;border-bottom-right-radius:20px}@media screen and (max-width: 600px){.header__nav{display:none}.header__burger{display:block}}@media screen and (min-width: 601px){.header__popup{display:none}}.footer{display:flex;justify-content:center;align-items:flex-start;background:rgba(0,0,0,0);color:#fff;margin-top:15px;margin-bottom:10px}.footer__wrapper{display:flex;justify-content:space-between;align-items:center}.footer__logo-img:hover{cursor:pointer}.footer__logo-img img{width:70px}.footer__author-info{display:flex;gap:10px;align-items:center;justify-content:center}.footer__author-name{font-size:14px;user-select:text}@media screen and (max-width: 600px){.footer__author-name{display:none}}.footer__github-logo{width:20px}.footer__year{margin-left:95px}@media screen and (max-width: 600px){.footer__year{margin-left:-60px}}html,body{height:100%;background-color:#161616}*{box-sizing:border-box}p,h1{margin:0}ul{padding:0;margin:0}.hidden{display:none}.wrapper{width:95%;display:flex}.page{display:flex;flex-direction:column;width:100%;min-height:100%;font-family:"Helvetica Neue",serif;background-color:#161616;user-select:none}.main{display:flex;justify-content:center;flex:1 1 auto}.main__wrapper{flex-direction:column}.main__header{color:#fff;text-transform:uppercase;font-size:17.5vw;font-weight:500;margin:0;user-select:none;white-space:nowrap;letter-spacing:3px;line-height:1}@media screen and (max-width: 600px){.main__header{letter-spacing:-2px}}.main__description{color:#fff;font-size:20px;margin:0 0 30px}@media screen and (max-width: 600px){.main__description{font-size:14px}}.main__play{display:flex;flex-direction:column;flex-grow:1}.main__image-block{width:100%;position:relative;background:no-repeat center url(assets/899457d94df07bdd8a55.png);background-size:cover;height:100%;border-radius:56px;overflow:hidden;flex-grow:1}@media screen and (max-width: 640px){.main__image-block{background-position:58%}}.main__image{width:100%;max-width:100%;height:400px}.main__play-button{width:92%;text-transform:uppercase;font-weight:bold;padding:20px;font-size:24px;border-radius:45px;transition:all 150ms ease-in-out;position:absolute;bottom:32px;left:50%;transform:translate(-50%, 0);margin:0;border:none;background-color:#fff}.main__play-button:hover{cursor:pointer;box-shadow:0 5px 40px rgba(255,255,255,.5)}.background{position:absolute;background:rgba(22,22,22,.9019607843);backdrop-filter:blur(6px);top:36px;left:0;right:0;bottom:0;z-index:10}@media screen and (min-width: 601px){.background{display:none}}
+.audio-player{width:100%;display:flex;justify-content:space-between;align-items:center;gap:10px}.audio-player__play-btn{width:40px;height:40px;background-size:contain;background-position:center}.audio-player__play-btn:hover{cursor:pointer}.audio-player__play-btn_play{background-image:url(assets/747bcc84cde6dea94e87.svg)}.audio-player__play-btn_pause{background-image:url(assets/baebd4628e3710e486aa.svg)}.audio-player__progress-box{display:flex;justify-content:space-between}.progress-box{flex-grow:1;align-items:center;gap:15px}.progress-box__duration-line{border-radius:10px;height:6px;background-color:#fff;width:100%;position:relative}.progress-box__duration-progress{position:absolute;height:100%;background-color:gray;border-radius:inherit}.progress-box__change-duration-el{width:13px;height:13px;border-radius:50%;background-color:#7d9db8;position:absolute;top:-3px;right:-6.5px}.progress-box__change-duration-el:hover{cursor:pointer}.volume-box{position:relative}.volume-box__btn{width:25px;height:25px;background-size:contain;background-position:center;background-image:url(assets/8924e9dc63ecc9e272bf.svg)}.volume-box__btn:hover{cursor:pointer}.sound-panel{position:absolute;height:142px;width:23px;top:-151px;left:1px;border-radius:10px;background-color:#fffefa}.sound-panel_hidden{display:none}.sound-panel__full-state-line{position:absolute;height:117px;background-color:#fff;width:8px;border-radius:9px;top:13px;left:7.5px;border:1px solid rgba(128,128,128,.27)}.sound-panel__change-volume-el{width:15px;height:15px;background-color:#525252;position:absolute;top:-7px;left:-3.5px;border-radius:50%}.sound-panel__change-volume-el:hover{cursor:pointer}.sound-panel__progress-line{position:absolute;width:8px;height:100%;background-color:gray;bottom:-1px;left:-1px;border-radius:9px}.full-line:hover{cursor:pointer}.time{font-size:14px}.progress{pointer-events:none}.drag{pointer-events:all}.wrapper.game{height:fit-content}.game-page{position:relative}.game-page__win-popup{position:fixed;top:0;left:0;bottom:0;right:0;background:rgba(22,22,22,.9019607843);backdrop-filter:blur(6px);z-index:10}.game-page__win-popup .win-popup__box{width:620px;height:fit-content;z-index:100;background-color:#222;color:#fff;padding:32px;border-radius:30px;display:flex;flex-direction:column;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);animation:show 1s ease-in-out}@media screen and (max-width: 720px){.game-page__win-popup .win-popup__box{width:90%;padding:24px}}.game-page__win-popup .win-popup__button{background:#222;border:1px solid #fff;border-radius:100px;text-transform:uppercase;color:#fff;font-size:20px;line-height:24px;letter-spacing:.05em;padding:20px;width:100%}@media screen and (max-width: 720px){.game-page__win-popup .win-popup__button{font-size:15px;padding:11px;border-radius:16px}}.game-page__win-popup .win-popup__button:hover{cursor:pointer;color:#000;background-color:#fff}.game-page__win-popup .win-popup__button_start{margin-top:32px;margin-bottom:16px}.game-page__win-popup .win-popup__button_save{width:117px;border-radius:24px;border:1px solid rgba(248,246,246,.63)}@media screen and (max-width: 720px){.game-page__win-popup .win-popup__button_save{align-self:center;width:100%;font-size:15px;padding:11px;border-radius:16px;margin-top:5px}}.game-page__win-popup .win-popup__button_saved,.game-page__win-popup .win-popup__button_saved:hover{border:1px solid #0bc834;color:#0bc834;background:#222}.game-page__win-popup .win-popup__button_saved:hover{cursor:default}.game-page__win-popup .win-popup__button_disabled{color:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.1)}.game-page__win-popup .win-popup__button_disabled:hover{cursor:default;color:rgba(255,255,255,.1);background:#222}.game-page__win-popup .win-popup__header{margin:0;font-size:40px;line-height:140%;text-transform:uppercase;font-weight:400}@media screen and (max-width: 720px){.game-page__win-popup .win-popup__header{font-size:25px}}.game-page__win-popup .win-popup__info{display:flex;padding:32px 0;gap:12px;border-bottom:1px solid rgba(255,255,255,.1)}@media screen and (max-width: 720px){.game-page__win-popup .win-popup__info{flex-direction:column}}.game-page__win-popup .win-popup__score,.game-page__win-popup .win-popup__input{border-radius:24px;padding:16px 24px 20px 20px}@media screen and (max-width: 720px){.game-page__win-popup .win-popup__score,.game-page__win-popup .win-popup__input{border-radius:16px;padding:12px 24px 16px 20px}}.game-page__win-popup .win-popup__score{background-color:#454545;display:flex;flex-direction:column;text-transform:uppercase;font-weight:300;font-size:14px}@media screen and (max-width: 720px){.game-page__win-popup .win-popup__score{font-size:8px}}.game-page__win-popup .win-popup__input-box{position:relative;flex-grow:1}.game-page__win-popup .win-popup__input{border-radius:24px;border:1px solid rgba(255,255,255,.1);font-size:24px;padding-top:33px;color:#fff;font-weight:300;background-color:#222;width:100%}.game-page__win-popup .win-popup__input:focus{outline:none;border-color:rgba(248,246,246,.63)}@media screen and (max-width: 720px){.game-page__win-popup .win-popup__input{border-radius:16px;padding-top:25px;font-size:16px}}.game-page__win-popup .win-popup__score-data{font-size:24px;margin-top:6px}@media screen and (max-width: 720px){.game-page__win-popup .win-popup__score-data{font-size:19px}}.game-page__win-popup .win-popup__winner-name{font-weight:300;font-size:14px;text-transform:uppercase;position:absolute;top:16px;left:20px}@media screen and (max-width: 720px){.game-page__win-popup .win-popup__winner-name{font-size:8px;top:12px}}.game-page__win-popup .win-popup__title{font-weight:400;font-size:16px;margin-top:8px;line-height:140%}@media screen and (max-width: 720px){.game-page__win-popup .win-popup__title{font-size:14px}}.game-page__win-popup .win-popup__close{width:42px;height:42px;position:absolute;top:-12px;right:-12px;background:no-repeat center url(assets/347ef8721d6342cf6e9f.svg)}.game-page__win-popup .win-popup__close:hover{cursor:pointer}.game-page__win-popup_hidden{display:none}.game{margin-top:30px;display:grid;gap:15px;color:#fff;grid-template-columns:350px 1fr;grid-template-rows:repeat(3, auto) 53px;grid-template-areas:"levels levels" "player player" "quiz info" "button button"}@media screen and (max-width: 900px){.game{grid-template-columns:1fr 2fr}}@media screen and (max-width: 800px){.game{grid-template-columns:1fr;grid-template-rows:auto auto 1fr auto 53px;grid-template-areas:"levels" "player" "quiz" "info" "button"}}.game .levels{grid-area:levels}.game .player{grid-area:player}.game .quiz{grid-area:quiz}.game .bird-info{grid-area:info}.game__next-btn{grid-area:button;border:1px solid #3a3a3a;background-color:#161616;border-radius:40px;text-transform:uppercase;color:#3a3a3a;outline:none;font-size:14px}.game__next-btn_active{border-color:#fff;color:#fff;transition:.5s}.game__next-btn_active:hover{cursor:pointer;background-color:#252525}.game__section{background-color:#222;border-radius:40px}.levels{display:flex;align-items:center;justify-content:space-between}@media screen and (max-width: 1000px){.levels{flex-direction:column;gap:15px;align-items:end}}.levels__list{list-style:none;display:grid;align-items:center;width:80%;grid-template-columns:repeat(6, 1fr);color:#fff;border:1px solid #424242;border-radius:32px;padding:0;overflow:hidden}@media screen and (max-width: 1000px){.levels__list{width:100%}}@media screen and (max-width: 800px){.levels__list{display:grid;grid-template-columns:repeat(3, auto);grid-template-rows:repeat(3, auto)}}.levels__item{font-size:14px;text-transform:uppercase;text-align:center;padding:20px 0;border-radius:32px;opacity:.7}.levels__item_active{background-color:#222;opacity:1}@media screen and (max-width: 800px){.levels__item{border-radius:0}}.levels__score{margin:0;border-radius:32px;border:1px solid #fff;display:flex;justify-content:center;align-items:center;width:15%;padding:20px 0;font-size:14px;text-transform:uppercase;color:#fff;gap:10px}@media screen and (max-width: 800px){.levels__score{width:50%}}@media screen and (max-width: 500px){.levels__score{width:100%}}.player{padding:20px;display:grid;align-items:center;grid-template-columns:120px 1fr;grid-template-rows:1fr 1fr;grid-template-areas:"photo name" "photo controls";gap:20px}@media screen and (max-width: 670px){.player{grid-template-columns:auto 1fr;grid-template-rows:repeat(2, auto);grid-template-areas:"photo name" "controls controls"}}.player__img{grid-area:photo;border-radius:20px;background:no-repeat center url(assets/52bacedc47f5bbf7fcec.jpg);background-size:cover;width:120px;height:120px}@media screen and (max-width: 670px){.player__img{width:66px;height:66px}}.player__controls-box{grid-area:controls}.player__bird-name{grid-area:name;box-sizing:border-box;width:fit-content;text-align:center;margin:0;background-color:rgba(255,255,255,.2);border-radius:20px;padding:10px 20px;color:#fff;align-items:center;font-size:18px;font-weight:300}@media screen and (max-width: 720px){.player__bird-name{font-size:16px}}.quiz{width:100%;padding:8px 32px}.quiz__list{width:100%;margin:0;padding:0;list-style:none;color:#fff;font-size:16px;text-transform:capitalize;display:flex;flex-direction:column;justify-content:stretch}@media screen and (max-width: 700px){.quiz__list{width:100%;height:100%;padding:0 20px}}@media screen and (max-width: 1120px){.quiz{height:fit-content}}.quiz__item{border-bottom:1px solid rgba(255,255,255,.1);height:100%;width:100%}.quiz__item:last-child{border:none}.quiz__radio{height:100%;display:flex;align-items:center;gap:10px;position:relative}.quiz__input{visibility:hidden;position:absolute;width:100%;height:100%}.quiz__input.error~label{color:red}.quiz__input.correct~label{color:#0bc834;opacity:1}.quiz__label{position:relative;cursor:pointer;-webkit-transition:all .25s linear;opacity:.6;padding:20px 0 20px 30px;z-index:1;height:100%;width:100%;display:flex;align-items:center}.quiz__label:hover{opacity:1}.quiz__label:hover~.radio{opacity:1;background-color:#e2b30d}.quiz .radio{position:absolute;background-color:#e8e8e8;border-radius:100%;height:8px;width:8px;top:26px;left:0;transition:border .25s linear;-webkit-transition:border .25s linear;opacity:.6}.quiz .radio.error{background-color:red}.quiz .radio.correct{opacity:1;background-color:#0bc834}.bird-info{display:flex;justify-content:center;padding:32px}.bird-info__card{height:100%;display:grid;gap:20px;grid-template-columns:300px 1fr;grid-template-rows:70px 70px 1fr;grid-template-areas:"card-img card-name" "card-img card-player" "card-img card-info"}@media screen and (max-width: 1120px){.bird-info__card{grid-template-columns:1fr;grid-template-rows:repeat(3, auto) 1fr;grid-template-areas:"card-name" "card-img" "card-player" "card-info"}}.bird-info__card.hidden{display:none}.bird-info__img{height:300px;width:300px;grid-area:card-img;border-radius:20px;background:no-repeat center url(assets/6653aaa939afe92a29e9.png);background-size:cover}@media screen and (max-width: 1120px){.bird-info__img{width:100%}}@media screen and (max-width: 500px){.bird-info__img{height:200px}}.bird-info__name{grid-area:card-name;font-size:32px}.bird-info__name_lat{margin-top:5px;font-size:14px;text-transform:uppercase}.bird-info__player{grid-area:card-player;border-bottom:1px solid rgba(255,255,255,.1)}@media screen and (max-width: 1120px){.bird-info__player{border-bottom:none}}.bird-info__info{grid-area:card-info;font-size:16px;line-height:140%}.bird-info__audio{height:30px}@keyframes show{from{top:-100%;left:50%}to{top:50%;left:50%}}
+.main{color:#fff}.main__res-header{font-size:12vw;text-transform:uppercase;letter-spacing:3px;width:50%;line-height:100%}@media screen and (max-width: 600px){.main__res-header{font-size:17vw}}.results__table{width:70%;height:100%;overflow:scroll;display:flex;justify-content:center;align-items:center;padding:20px 0;box-sizing:border-box}@media screen and (max-width: 900px){.results__table{width:100%}}.results__table_no-score{justify-content:flex-start;align-items:start}.results__plug{font-size:24px}@media screen and (max-width: 600px){.results__plug{font-size:16px}}.results__list{list-style:none;width:100%}.results__item{display:flex;padding:20px 0;border-bottom:1px solid gray;align-items:center;justify-content:flex-start}.results__order{margin:0 25px 0 0}.results__photo{border-radius:50%;width:50px;height:50px;background-image:url(assets/d4bae639e68ab514951d.png);background-position:center;background-repeat:no-repeat;background-size:contain;margin:0 25px 0 0}.results__score{justify-self:end;margin-left:auto}
